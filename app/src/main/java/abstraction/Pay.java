@@ -1,4 +1,4 @@
 package abstraction;
-public interface Payment {
+public interface Pay {
     void pay();
 }

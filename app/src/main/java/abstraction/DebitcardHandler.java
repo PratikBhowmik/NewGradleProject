@@ -1,7 +1,6 @@
 package abstraction;
-
-public class Debitcard {
-    void pay(){
+public class DebitcardHandler implements Pay{
+    public void pay(){
         System.out.println("Paid with debit card");
     }
 }
